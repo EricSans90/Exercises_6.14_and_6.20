@@ -20,11 +20,11 @@ public class main {
                     System.out.println("Escribe el nombre del contacto:");
                     Scanner inputValue1;
                     inputValue1 = new Scanner(System.in);
-                    auxNombre = inputValue1.next();
+                    auxNombre = inputValue1.nextLine();
                     System.out.println("Escribe el número del contacto:");
                     Scanner inputValue2;
                     inputValue2 = new Scanner(System.in);
-                    auxNumero = inputValue2.next();
+                    auxNumero = inputValue2.nextLine();
                     auxContacto=auxNombre+":"+auxNumero;
                     contactos[cantidadContactos]=auxContacto;
                     cantidadContactos+=1;
@@ -43,7 +43,7 @@ public class main {
                     System.out.println("Escribe el nombre del contacto del que quieras su teléfono:");
                     Scanner inputValue1;
                     inputValue1 = new Scanner(System.in);
-                    nombreABuscar = inputValue1.next();
+                    nombreABuscar = inputValue1.nextLine();
                     for (int i=0; i< cantidadContactos; i++){
                         if (contactosNombre[i].equals(nombreABuscar)){
                             System.out.println("El número de "+contactosNombre[i]+" es "+contactosNumero[i]);
