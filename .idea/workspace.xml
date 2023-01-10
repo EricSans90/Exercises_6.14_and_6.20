@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="857a9811-a626-4124-a6ba-2bba2e4f2073" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+    <list default="true" id="857a9811-a626-4124-a6ba-2bba2e4f2073" name="Changes" comment="Eric Sans Vidal - a) and b)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +44,14 @@
       <option name="presentableId" value="Default" />
       <updated>1673309053748</updated>
     </task>
+    <task id="LOCAL-00001" summary="Eric Sans Vidal - a) and b)">
+      <created>1673314604836</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673314604836</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -56,5 +64,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Eric Sans Vidal - a) and b)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eric Sans Vidal - a) and b)" />
   </component>
 </project>

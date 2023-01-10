@@ -9,7 +9,7 @@ public class main {
         while (elegir !=4) {
             System.out.println("¿Qué quieres hacer? \n 1- Añadir un nuevo contacto \n 2- Buscar el teléfono de " +
                     "un contacto a partir de su nombre \n 3- Mostrar la info de todos los contactos ordenados" +
-                    "alfabéticamente por el nombre \n 4-Terminar");
+                    " alfabéticamente por el nombre \n 4-Terminar");
             Scanner inputValue;
             inputValue = new Scanner(System.in);
             elegir = inputValue.nextInt();
@@ -54,7 +54,20 @@ public class main {
                 break;
                 case 3:
                 {
-
+                    for (int i = 0; i < cantidadContactos - 1; i++) {
+                        int index = i;
+                        for (int j = i + 1; j < cantidadContactos; j++) {
+                            if (contactos[j].toLowerCase().compareTo(contactos[index].toLowerCase()) < 0) {
+                                index = j;
+                            }
+                        }
+                        String aux = contactos[index];
+                        contactos[index] = contactos[i];
+                        contactos[i] = aux;
+                    }
+                    for (int i=0; i<cantidadContactos;i++){
+                        System.out.println(contactos[i]);
+                    }
                 }
                 break;
                 case 4:
